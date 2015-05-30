@@ -1,0 +1,131 @@
+{
+    "metadata": {
+        "creator": "Corona Composer", 
+        "version": "0.1a"
+    }, 
+    "objects": {
+        "id1": {
+            "alpha": 1, 
+            "bgColor": {
+                "b": 1, 
+                "g": 1, 
+                "r": 1
+            }, 
+            "children": [
+                "id2", 
+                "id3"
+            ], 
+            "drawMode": "normal", 
+            "gridH": 20, 
+            "gridSnapping": true, 
+            "gridW": 20, 
+            "isVisible": true, 
+            "name": "root", 
+            "rotation": 0, 
+            "sceneName": "scene1", 
+            "targetH": "320", 
+            "targetW": "480", 
+            "type": "group", 
+            "x": 0, 
+            "xGravity": 0, 
+            "xScale": 1, 
+            "y": 0, 
+            "yGravity": 9.8, 
+            "yScale": 1
+        }, 
+        "id2": {
+            "alpha": 1, 
+			"timeline": [
+			  {
+				"position": 1,
+				"index": 0,
+				"time": 0,
+				"params": {
+				  "y": "80",
+				  "x": "240",
+				  "alpha": 1
+				}
+			  }
+			],
+            "angularDamping": 0, 
+            "bodyType": "dynamic", 
+            "bounce": 0.2, 
+            "createdAtStart": true, 
+            "density": 1, 
+            "fillColor": {
+                "a": 1, 
+                "b": 0.12, 
+                "g": 0.49, 
+                "r": 0.96
+            }, 
+            "friction": 0.3, 
+            "id": "Rect", 
+            "imageFile": "ui_assets/symbol_rectangle.png", 
+            "isAwake": true, 
+            "isBodyActive": true, 
+            "isBullet": false, 
+            "isFixedRotation": false, 
+            "isSensor": false, 
+            "isSleepingAllowed": true, 
+            "isVisible": true, 
+            "linearDamping": 0, 
+            "physicsEnabled": false, 
+            "radius": 0, 
+            "rectHeight": 50, 
+            "rectWidth": "470", 
+            "rotation": 0, 
+            "strokeColor": {
+                "a": 1, 
+                "b": 0.5, 
+                "g": 0.5, 
+                "r": 0.5
+            }, 
+            "strokeWidth": 0, 
+            "type": "rect", 
+            "x": "240", 
+            "xLocked": false, 
+            "xScale": 1, 
+            "y": "80", 
+            "yLocked": false, 
+            "yScale": 1
+        }, 
+        "id3": {
+            "alpha": 1,
+			"timeline": [
+			  {
+				"position": 1,
+				"index": 0,
+				"time": 0,
+				"params": {
+				  "y": "90",
+				  "x": "240",
+				  "alpha": 1
+				}
+			  }
+			],
+            "createdAtStart": true, 
+            "font": "native.systemFont", 
+            "id": "Text", 
+            "isVisible": true, 
+            "rotation": 0, 
+            "size": 22, 
+            "text": "Sample Scene", 
+            "textColor": {
+                "b": 1, 
+                "g": 1, 
+                "r": 1
+            }, 
+            "type": "text", 
+            "x": "240", 
+            "xLocked": false, 
+            "xScale": 1, 
+            "y": "90", 
+            "yLocked": false, 
+            "yScale": 1
+        }
+    }, 
+    "root": {
+        "numObjects": 3, 
+        "object": "id1"
+    }
+}

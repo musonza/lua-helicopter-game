@@ -1,0 +1,21 @@
+settings =
+{
+    orientation =
+    {
+    	default = "landscapeRight",
+    },
+
+    iphone =
+    {
+        plist =
+        {
+            UIAppFonts =
+            {
+                "OmegaRuby.ttf",
+                "Omega Ruby.ttf",
+            },
+            
+            UIStatusBarHidden=true,
+        },
+    },
+}
