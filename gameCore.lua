@@ -195,8 +195,8 @@ end
 
 function createRocket()
 	local r
-	local rnd = math.floor(math.random() * 4) + 1
-	r = display.newImage('missile.png', display.contentWidth, gc.yPos[math.floor(math.random() * 3)+1])
+	local rnd = math.floor(math.random(1,12) / 2) - 1
+	r = display.newImage('missile.png', display.contentWidth, gc.yPos[rnd])
 	r.name = 'missile'
 	-- Block physics
 	physics.addBody(r, 'kinematic')
